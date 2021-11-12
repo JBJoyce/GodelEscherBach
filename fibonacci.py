@@ -3,7 +3,7 @@ def fibonacci_digit(index):
     if index <= 1:
         return 1
     else:
-        return (fibonacci_digit(index - 1) + fibonacci_digit(index - 2))
+        return (fibonacci_digit(index - 1) + fibonacci_digit(index - 2)) # returns (n+1)th digit of the fibonacci sequence
     
 def fibonacci_list(first_x):
     fib_list = [1,1]
